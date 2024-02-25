@@ -1,0 +1,18 @@
+{
+  "name": "badtech"
+  "displayName": "Biotech but bad"
+  "author":
+    '''
+    oleksiy and a contributor/second dev TMHBGYT
+    '''
+  "description":
+    '''
+    well... biotech but by oleksiy (ye)
+current version:0.20
+    '''
+  "subtitle": "mod on crack"
+  "version": "0.20"
+  "hidden": false
+  "minGameVersion": 136
+  "dependencies": []
+}
