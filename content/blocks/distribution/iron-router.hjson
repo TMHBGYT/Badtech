@@ -1,0 +1,12 @@
+type: Router 
+name: iron Router
+health: 80
+itemCapacity: 6
+requirements: [
+  bloody-iron/6
+] 
+category: distribution
+research: {
+    parent: iron-bridge
+},
+alwaysUnlocked: true

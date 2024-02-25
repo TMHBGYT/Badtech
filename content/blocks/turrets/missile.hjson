@@ -1,0 +1,77 @@
+type: ItemTurret
+name: missile
+description: Fires 4 missiles at enemy targets.
+size: 3
+reload: 65
+shoot: {
+  type: ShootAlternate
+  shots: 4
+  spread: 4
+  shotDelay: 6
+  barrels: 4
+}
+range: 235
+category: turret
+shootSound: shoot-dull
+outlineColor: 42413e
+targetGround: true
+targetAir: false
+ammoTypes: {
+  bloody-iron: {
+    type: MissileBulletType
+    width: 7
+    height: 9
+    damage: 25
+    speed: 4
+    lifetime: 50
+    collidesGround: true
+    collidesAir: false
+    ammoMultiplier: 5
+    splashDamage: 10
+    splashDamageRadius: 8
+    weaveScale: 9
+    weaveMag: 1
+  }
+  thermium: {
+    type: MissileBulletType
+    width: 7
+    height: 9
+    damage: 34
+    speed: 4
+    lifetime: 50
+    ammoMultiplier: 6
+    collidesGround: true
+    collidesAir: true
+    splashDamage: 15
+    splashDamageRadius: 12
+    weaveScale: 9
+    weaveMag: 1
+ }
+  buruldium: {
+    type: MissileBulletType
+    width: 7
+    height: 9
+    damage: 53
+    speed: 4
+    lifetime: 50
+    ammoMultiplier: 6
+    collidesGround: true
+    collidesAir: true
+    splashDamage: 23
+    splashDamageRadius: 17 
+	weaveScale: 9
+    weaveMag: 1
+    }
+}
+researchCostMultiplier: 0.05
+requirements: [
+  bloody-iron/70
+  thermium/40
+]
+research: {
+  parent: fire
+  requirements: [
+    bloody-iron/540
+    thermium/120
+   ]
+}

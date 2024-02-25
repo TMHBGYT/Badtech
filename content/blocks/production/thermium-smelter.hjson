@@ -1,0 +1,83 @@
+type: GenericCrafter
+name: Thermium smelter
+description: Smelts bloody iron and coal into thermium and graphite as byproduct
+size: 3
+scaledHealth: 60
+squareSprite: false
+craftEffect: smeltsmoke
+outputItems: [
+  graphite/1
+  thermium/1
+]
+consumes: {
+  items: [
+    coal/1
+    bloody-iron/2
+  ]
+}
+craftTime: 90
+//craftEffect: {
+  //type: RadialEffect
+  //layer: 118
+  //rotationSpacing: 90
+  //rotationOffset: 45
+  //amount: 4
+  //lengthOffset: 6
+  //effect: {
+    //type: ParticleEffect
+    //spin: 0.1
+    //particles: 3
+    //length: 9
+    //line: true
+    //strokeFrom: 0.3
+    //strokeTo: 0.05
+    //colorFrom: 8f8d87
+    //colorTo: 6b6a66
+    //lifetime: 120
+    //interp: pow2
+    //sizeInterp: pow3In
+    //layer: 80
+    //cone: 12
+    //useRotation: false
+    //baseRotation: 90
+  //}
+//}
+category: crafting
+research: {
+  parent: bloody-iron
+  objectives: [
+    {
+      type: OnSector
+      preset: coal-mines
+    }
+  ]
+}
+requirements: [
+  lead/40
+  bloody-iron/30
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -rotator
+      spinSprite: true
+      rotateSpeed: 2.1
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    } 
+  ]
+}
+ambientSound: grinding
+ambientSoundVolume: 0.08
+researchCostMultiplier: 0.5

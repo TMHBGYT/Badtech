@@ -1,0 +1,32 @@
+  name: iron mender
+  description: mends nearby buildings
+  "type": "MendProjector",
+  "health": 400,
+  "size": 2,
+  "range": 80,
+  "reload": 120,
+  "phase": "76619d",
+  "color": "996de8",
+  "hasPower": false,
+  hasLiquids: false
+  healPercent: 3
+  phaseBoost: 3
+  phaseRangeBoost: 30
+  category: effect
+requirements: [
+    lead/50
+    bloody-iron/30
+]
+research: {
+    parent: "core-blood",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "entrance"
+        }
+    ]
+}
+researchCost: [
+    lead/50
+    bloody-iron/30
+  ]

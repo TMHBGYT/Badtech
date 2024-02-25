@@ -1,0 +1,9 @@
+name: Bloody iron
+description: iron ores that get bloody and maybe living... by this planet. ansori which is living planet with its creatures
+hardness: 4
+cost: 1.1
+healthScaling: 0.2
+explosiveness: 0
+radioactivity: 1
+color: dad2ca
+research: core-blood

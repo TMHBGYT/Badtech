@@ -1,0 +1,8 @@
+localizedName: entrance
+description: welcome to the ankle, this planet with maybe live, destroy all enemy waves and produce resources
+captureWave: 11
+planet: ankle
+sector: 1
+research: core-blood
+difficulty: 1
+alwaysUnlocked: true

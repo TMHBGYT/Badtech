@@ -1,0 +1,51 @@
+type: ItemTurret
+name: fire
+description: Fires a continuos flame.
+size: 2
+reload: 5
+range: 130
+recoil: 0
+category: turret
+shootSound: flame
+outlineColor: 42413e
+research: {
+  parent: cast
+  requirements: [
+    bloody-iron/290
+    lead/110
+  ]
+}
+researchCostMultiplier: 0.05
+requirements: [
+  bloody-iron/70
+  lead/45
+]
+targetGround: true
+targetAir: true
+ammoTypes: {
+  coal: {
+    damage: 34
+	pierce: true
+	pierceBuilding: true
+    status: burning
+	makeFire: true
+    speed: 2.6
+	ammoMultiplier: 5
+	lifetime: 50
+    despawnEffect: none
+    width: 0.01
+    height: 0.01
+    smokeEffect: {
+      type: ParticleEffect
+      particles: 11
+      length: 140
+      lifetime: 34
+      interp: circleOut
+      cone: 3
+      colorFrom: ffdd55
+      colorTo: db401c
+      sizeFrom: 4
+      sizeTo: 0.6
+    }
+  }
+}

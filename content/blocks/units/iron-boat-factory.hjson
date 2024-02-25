@@ -1,0 +1,22 @@
+name: Boat crafter
+size: 3
+description: crafts small iron boats
+type: unitFactory
+configurable: false
+consumes: {}
+plans: [
+{
+unit: iron-boat
+  requirements: [
+    thermium/40
+    buruldium/40
+  ]
+time: 2700
+}
+]
+research: missile
+category: units
+requirements: [
+    buruldium/100
+    thermium/100
+  ]

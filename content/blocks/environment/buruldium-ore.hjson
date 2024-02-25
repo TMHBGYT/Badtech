@@ -1,0 +1,5 @@
+{
+	type: "oreBlock", 
+	itemDrop: "buruldium",
+	oreDefault: "true",
+}

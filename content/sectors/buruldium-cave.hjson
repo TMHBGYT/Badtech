@@ -1,0 +1,7 @@
+localizedName: Buruldium cave
+description: here are an enemy base and buruldium, mine buruldium enemy is strong
+planet: ankle
+sector: 2
+research: coal-mines
+difficulty: 2
+alwaysUnlocked: true

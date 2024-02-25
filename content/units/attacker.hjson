@@ -1,0 +1,64 @@
+
+	"type": "tank",
+	"hitSize": 12,
+	"treadPullOffset": 1,
+	"treadRects": [
+	{
+	"y": -20,
+	"width": 20,
+	"height": 20,
+	}
+	],
+	"singleTarget": false,
+	"omniMovement": false,
+	"rotateSpeed": 4,
+	"speed": 0.8,
+	"flying": false,
+	"health": 450,
+	"range": 120,
+	"name": attacker
+	"weapons": 
+	[
+		{
+			"name": "attacker-gun",
+			shoot: {
+			type: ShootPattern
+			shots: 2
+			shotDelay: 10
+			}
+   			"shootCone": 120,
+			"inaccuracy": 8,
+                        "layerOffset": 1
+			"inaccuracy": 1,
+			"mirror": false,
+			"x": 0,
+			"y": 0,
+			"rotate": true,
+			"rotateSpeed": 5,
+			"recoil": 1,
+			"shootSound": "bang",
+			"top": true, 
+			"reload": 40,
+			"bullet": 
+			{ 
+				"type": "MissileBulletType",
+				"speed": 4,
+				"damage": 8,
+				"status": "blasted",
+				"statusDuration": 70,
+				"width": 8,
+				"height": 8,
+				"hitEffect": "blastExplosion",
+				"shootEffect": "shootBig",
+				"lifetime": 30,
+				"pierce": false,
+				"hitSize": 4,
+				"homingPower": 0.0667,
+				"homingRange": 250,
+				"weaveScale": 8,
+				"weaveMag": 2,
+			}
+		}
+	]
+research: core-blood
+researchCostMultiplier: 0

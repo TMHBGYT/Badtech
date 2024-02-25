@@ -1,0 +1,25 @@
+{
+name: calcite former
+description: prints calcitic fragments from lead and graphite
+type: GenericCrafter
+health: 1000
+size: 2
+category: crafting
+research: thermium-smelter
+
+craftTime: 80
+craftEffect: reactorsmoke
+outputItem: calcitic-fragment/1
+
+consumes: {
+items: [
+lead/1
+graphite/2
+]
+}
+requirements: [
+thermium/35
+lead/100
+bloody-iron/80
+]
+}

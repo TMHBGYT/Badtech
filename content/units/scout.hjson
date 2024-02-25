@@ -1,0 +1,57 @@
+{
+name: scout
+"type": "flying",
+"engineColor": "4b4b5e",
+"itemCapacity": 40,
+"armor": 2,
+"health": 350,
+"hitSize": 20,
+"speed": 4,
+"flying": true,
+"range": 10,
+"mineSpeed": 999,
+"mineSpeed": 7,
+"buildSpeed": 3,
+"mineTier": 5,
+research: core-blood
+           weapons: {         
+           "name": "scout-gun",
+			shoot: {
+			type: ShootPattern
+			shots: 1
+			shotDelay: 10
+			}
+   			"shootCone": 120,
+			"inaccuracy": 8,
+                        "layerOffset": 1
+			"inaccuracy": 1,
+			"mirror": false,
+			"x": 0,
+			"y": 0,
+			"rotate": true,
+			"rotateSpeed": 5,
+			"recoil": 1,
+			"shootSound": "bang",
+			"top": true, 
+			"reload": 40,
+			"bullet": 
+			{ 
+				"type": "BasicBulletType",
+				"speed": 4,
+				"damage": 8,
+				"status": "blasted",
+				"statusDuration": 70,
+				"width": 8,
+				"height": 8,
+				"hitEffect": "blastExplosion",
+				"shootEffect": "shootBig",
+				"lifetime": 30,
+				"pierce": false,
+				"hitSize": 4,
+				"homingPower": 0.0667,
+				"homingRange": 250,
+				"weaveScale": 8,
+				"weaveMag": 2,
+			}
+}
+}

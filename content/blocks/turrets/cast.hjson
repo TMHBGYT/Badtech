@@ -1,0 +1,56 @@
+type: ItemTurret
+name: cast
+description: first turret on ankle, shoots small bullets
+size: 3
+reload: 30
+shoot: {
+  shots: 1
+  shotDelay: 2
+}
+range: 280
+category: turret
+shootSound: shoot-dull
+outlineColor: 42413e
+research: {
+  parent: bloody-iron
+  requirements: [
+    bloody-iron/250
+    lead/130
+  ]
+}
+researchCostMultiplier: 0.05
+requirements: [
+  bloody-iron/35
+  lead/15
+]
+targetGround: true
+targetAir: true
+ammoTypes: {
+  bloody-iron: {
+    type: BasicBulletType
+    width: 7
+    height: 9
+    damage: 18
+    speed: 4
+    lifetime: 50
+    collidesGround: true
+    collidesAir: true
+    ammoMultiplier: 5
+    damage: 18
+    splashDamage: 15
+    splashDamageRadius: 8
+  }
+  lead: {
+    type: BasicBulletType
+    width: 7
+    height: 9
+    damage: 30
+    speed: 4
+    lifetime: 50
+    ammoMultiplier: 6
+    collidesGround: true
+    collidesAir: true
+    splashDamage: 10
+    splashDamageRadius: 12
+  }
+}

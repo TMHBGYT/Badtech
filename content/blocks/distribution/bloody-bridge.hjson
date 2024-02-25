@@ -1,0 +1,14 @@
+ "type": "ItemBridge",
+itemCapacity: 2
+  "name": "iron bridge",
+  "description": "bridge",
+  "health": 80,
+  "range": 3,
+  "transportTime": 8,
+  "hasPower": false,
+requirements: [
+bloody-iron/5
+] 
+category: distribution
+research: bloody-iron
+alwaysUnlocked: true

@@ -1,0 +1,7 @@
+localizedName: atlantis
+description: here lies 3 enemy cores which producing every type of units on ankle, destroy all bases to get new boats
+planet: ankle
+sector: 3
+research: buruldium-cave
+difficulty: 3
+alwaysUnlocked: true

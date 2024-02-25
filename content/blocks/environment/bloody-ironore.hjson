@@ -1,0 +1,5 @@
+{
+	type: "oreBlock", 
+	itemDrop: "bloody-iron",
+	oreDefault: "true",
+}

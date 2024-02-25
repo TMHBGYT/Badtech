@@ -1,0 +1,9 @@
+name: Buruldium
+description: not so rare ore in ankle, used with calcitic fragments and in stronger things
+hardness: 4
+cost: 1.1
+healthScaling: 0.2
+explosiveness: 0
+radioactivity: 0.4
+color: dad2ca
+research: calcitic-fragment

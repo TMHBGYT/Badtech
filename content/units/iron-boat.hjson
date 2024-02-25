@@ -1,0 +1,39 @@
+name: Iron boat
+template: ErekirUnitType
+type: naval
+flying: false
+description: a small ship immune to burning and melting damage that rapidly shoots small bullets at ennemy targets
+health: 760
+hitSize: 14
+armor: 2
+speed: 0.9
+targetAir: true
+faceTargets: true
+lightRadius: 5
+singleTarget: true
+fogRadius: 40
+immunities: [
+burning,
+melting
+]
+  weapons: [{
+    y: 6
+    mirror: true
+    x: -6
+    reload: 10
+    shootCone: 5
+    top: false
+    range: 176
+    rotate: true
+    name: small-gun
+    bullet: {
+      type: BasicBulletType
+      damage: 20
+      height: 8
+      width: 8
+      speed: 4
+      lifetime: 44
+        }
+}]
+lightRadius: 200
+research: assaulter

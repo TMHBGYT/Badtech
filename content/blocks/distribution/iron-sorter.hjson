@@ -1,0 +1,9 @@
+type: Sorter
+name: iron Sorter
+health: 80
+requirements: [
+  bloody-iron/6
+] 
+category: distribution
+research: bloody-iron
+alwaysUnlocked: true

@@ -1,0 +1,7 @@
+localizedName: coal mines
+description: here lies some coal and enemy base, destroy enemy base and make attackers
+planet: ankle
+sector: 0
+research: entrance
+difficulty: 1
+alwaysUnlocked: true

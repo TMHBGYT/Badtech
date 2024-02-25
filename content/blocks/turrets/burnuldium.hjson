@@ -1,0 +1,64 @@
+type: ItemTurret
+name: burnuldium
+description: shoots 2 missiles at enemy
+size: 3
+reload: 60
+shoot: {
+  type:shootAlternate
+  shots: 2
+  shotDelay: 3
+  spread: 17
+}
+range: 180
+category: turret
+shootSound: shoot-dull
+outlineColor: 42413e
+research: {
+  parent: fire
+  requirements: [
+    bloody-iron/540
+    buruldium/120
+    calcitic-fragment/200
+  ]
+}
+researchCostMultiplier: 0.05
+requirements: [
+  bloody-iron/70
+  buruldium/25
+  calcitic-fragment/35
+]
+targetGround: true
+targetAir: true
+ammoTypes: {
+  thermium: {
+    type: MissileBulletType
+    width: 7
+    height: 9
+    damage: 30
+    speed: 4
+    lifetime: 50
+    collidesGround: true
+    collidesAir: true
+    ammoMultiplier: 2
+    damage: 18
+    splashDamage: 15
+    splashDamageRadius: 8
+    weaveScale: 7
+    weaveMag: 1
+  }
+  buruldium: {
+    type: MissileBulletType
+    width: 7
+    height: 9
+    damage: 45
+    speed: 4
+    lifetime: 50
+    ammoMultiplier: 2
+    collidesGround: true
+    collidesAir: true
+    splashDamage: 15
+    splashDamageRadius: 12
+    weaveScale: 9
+    weaveMag: 2
+  }
+}

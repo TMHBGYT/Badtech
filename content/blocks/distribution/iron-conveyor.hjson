@@ -1,0 +1,15 @@
+type: Conveyor
+name: Iron conveyor
+description: iron conveyor
+category: distribution
+alwaysUnlocked: true
+research: spore-pod
+researchCost: [
+  bloody-iron/10
+]
+speed: 0.05
+health: 45
+bridgeReplacement: iron-junction
+requirements: [
+  bloody-iron/1
+]

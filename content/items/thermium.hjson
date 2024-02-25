@@ -1,0 +1,9 @@
+name: Thermium
+description: a resource that appears by mixing bloody iron and coal in thermium smelter, used in advanced technologies
+hardness: 4
+cost: 1.1
+healthScaling: 0.2
+explosiveness: 0
+radioactivity: 0.4
+color: dad2ca
+research: thermium-smelter

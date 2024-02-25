@@ -1,0 +1,12 @@
+    "type": "Wall",
+    "health": 375,
+    "size": 1,
+    "name": "iron wall"
+    category: defense
+requirements: [
+  bloody-iron/12
+]
+research: "bloody-iron"
+researchCost: [
+    bloody-iron/60
+  ]

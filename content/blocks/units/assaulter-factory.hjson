@@ -1,0 +1,22 @@
+name: Assaulter factory
+size: 3
+description: flying unit "assaulter" factory.
+type: unitFactory
+configurable: false
+consumes: {}
+plans: [
+{
+unit: assaulter
+  requirements: [
+    lead/65
+    calcitic-fragment/35
+  ]
+time: 2800
+}
+]
+research: wasp-factory
+category: units
+requirements: [
+    thermium/150
+    lead/130
+  ]

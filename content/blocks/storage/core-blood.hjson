@@ -1,0 +1,21 @@
+type: CoreBlock
+name: Core: Blood
+description: Core of the base. Armored and stores a medium amount of items.
+requirements: [
+  bloody-iron/1600
+]
+isFirstTier: true
+size: 3
+squareSprite: false
+alwaysUnlocked: true
+unitType: scout
+health: 1450
+itemCapacity: 2500
+unitCapModifier: 8
+category: effect
+research: {
+  planet: ankle
+  root: true
+  name: Ankle
+  requiresUnlock: false
+}

@@ -1,0 +1,22 @@
+name: Wasp factory
+size: 3
+description: first unit factory, used to create wasps
+type: unitFactory
+configurable: false
+consumes: {}
+plans: [
+{
+unit: attacker
+  requirements: [
+    bloody-iron/40
+    lead/40
+  ]
+time: 2700
+}
+]
+research: cast
+category: units
+requirements: [
+    bloody-iron/200
+    lead/100
+  ]
