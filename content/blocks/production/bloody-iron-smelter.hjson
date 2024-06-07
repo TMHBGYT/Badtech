@@ -1,0 +1,25 @@
+{
+name: bloody iron smelter
+description: smelts bloody iron into bloody iron ingots, requires coal for heat
+type: GenericCrafter
+health: 700
+size: 2
+category: crafting
+research: thermium
+
+craftTime: 100
+craftEffect: reactorsmoke
+outputItem: bloody-iron-ingot/2
+
+consumes: {
+items: [
+coal/3
+bloody-iron/4
+]
+}
+requirements: [
+buruldium/135
+thermium/100
+bloody-iron/180
+]
+}
