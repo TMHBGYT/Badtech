@@ -4,7 +4,7 @@ name: scout
 "engineColor": "4b4b5e",
 "itemCapacity": 40,
 "armor": 2,
-"health": 350,
+"health": 450,
 "hitSize": 20,
 "speed": 4,
 "flying": true,
