@@ -14,14 +14,14 @@ outlineColor: 42413e
 research: {
   parent: bloody-iron
   requirements: [
-    bloody-iron/250
-    lead/130
+    bloody-iron/180
+    lead/100
   ]
 }
 researchCostMultiplier: 0.05
 requirements: [
-  bloody-iron/35
-  lead/15
+  bloody-iron/50
+  lead/30
 ]
 targetGround: true
 targetAir: true
@@ -36,21 +36,21 @@ ammoTypes: {
     collidesGround: true
     collidesAir: true
     ammoMultiplier: 5
-    damage: 18
-    splashDamage: 15
+    damage: 20
+    splashDamage: 20
     splashDamageRadius: 8
   }
   lead: {
     type: BasicBulletType
     width: 7
     height: 9
-    damage: 30
+    damage: 25
     speed: 4
     lifetime: 50
     ammoMultiplier: 6
     collidesGround: true
     collidesAir: true
-    splashDamage: 10
+    splashDamage: 20
     splashDamageRadius: 12
   }
 }
