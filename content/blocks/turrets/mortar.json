@@ -126,9 +126,9 @@
   ],
   "category": "turret",
   "research": {
-    "parent": "burnuldium",
+    "parent": "bloody-iron-ingot",
     "objectives": [
-      "burnuldim",
+      "bloody-iron-ingot",
       {
         "type": "SectorComplete",
         "preset": "atlantis",
