@@ -1,0 +1,138 @@
+{
+  "type": "ItemTurret",
+  "name": "mortar",
+  "description": "shoots with buruldium bullets that explode on enemies and deal splash damage",
+  "size": 3,
+  "targetAir": false,
+  "squareSprite": false,
+  "drawer": {
+    "type": "DrawTurret",
+    "basePrefix": "reinforced-",
+    "parts": [
+      {
+        "type": "RegionPart",
+        "suffix": "-barrel",
+        "progress": "recoil",
+        "heatProgress": "recoil",
+        "moveY": -2,
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-side-r",
+        "progress": "warmup",
+        "heatProgress": "warmup",
+        "moveX": 1,
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-side-l",
+        "progress": "warmup",
+        "heatProgress": "warmup",
+        "moveX": -1,
+      }
+    ]
+  },
+  
+  "health": 1000,
+  "reload": 80,
+  "range": 280,
+  "inaccuracy": 0,
+  "recoil": 2,
+  "rotateSpeed": 1,
+  "shootSound": "bigshot",
+  "ammoPerShot": 8,
+  "itemCapacity": 24,
+  "ammoTypes": {
+    "bloody-iron-ingot": {
+      "type": "basicBulletType",
+        "sprite": "bullet",
+        "ammoMultiplier": 1,
+        "damage": 55,
+        "splashDamage": 100,
+        "splashDamageRadius": 56,
+        "pierce": false,
+        "pierceBuilding": false,
+        "speed": 2,
+        "shrinkY": 0,
+        "shrinkX": 0,
+        "width": 18,
+        "height": 18,
+        "lifetime": 140,
+        "lightColor": "ffecd1",
+        "colorFrom": "e3a76a",
+        "colorTo": "e3a76a",
+        "hitEffect": {
+          "type": "MultiEffect",
+          "effects": [
+            {
+              "type": "WaveEffect",
+              "lifetime": 60,
+              "sizeFrom": 24,
+              "sizeTo": 24,
+              "strokeFrom": 4,
+              "strokeTo": 0,
+              "lightColor": "ffecd1",
+              "colorFrom": "e3a76a",
+              "colorTo": "e3a76a",
+            },
+            {
+              "type": "ParticleEffect",
+              "region": "circle",
+              "colorTo": "e3a76a88",
+              "lightColor": "e3a76a88",
+              "colorFrom": "e3a76a88",
+              "particles": 12,
+              "sizeFrom": 12,
+              "sizeTo": 0,
+              "lifetime": 120,
+              "lengthOffset": 16,
+            },
+          ]
+        },
+        "despawnEffect": {
+          "type": "MultiEffect",
+          "effects": [
+            {
+              "type": "WaveEffect",
+              "lifetime": 60,
+              "sizeFrom": 24,
+              "sizeTo": 24,
+              "strokeFrom": 4,
+              "strokeTo": 0,
+              "lightColor": "ffecd1",
+              "colorFrom": "e3a76a",
+              "colorTo": "e3a76a",
+            },
+            {
+              "type": "ParticleEffect",
+              "region": "circle",
+              "colorTo": "e3a76a88",
+              "lightColor": "e3a76a88",
+              "colorFrom": "e3a76a88",
+              "particles": 12,
+              "sizeFrom": 12,
+              "sizeTo": 0,
+              "lifetime": 140,
+              "lengthOffset": 16,
+            },
+        ]
+      },
+    }
+  },
+  "requirements": [
+    "bloody-iron-ingot/75",
+    "buruldium/100",
+    "thermium/100"
+  ],
+  "category": "turret",
+  "research": {
+    "parent": "burnuldium",
+    "objectives": [
+      "burnuldim",
+      {
+        "type": "SectorComplete",
+        "preset": "atlantis",
+      }
+    ]
+  }
+}
