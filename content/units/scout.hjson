@@ -1,57 +1,57 @@
-{
-name: scout
-"type": "flying",
-"engineColor": "4b4b5e",
-"itemCapacity": 40,
-"armor": 2,
-"health": 450,
-"hitSize": 20,
-"speed": 4,
-"flying": true,
-"range": 10,
-"mineSpeed": 999,
-"mineSpeed": 7,
-"buildSpeed": 3,
-"mineTier": 5,
-research: core-blood
-           weapons: {         
-           "name": "scout-gun",
-			shoot: {
-			type: ShootPattern
-			shots: 1
-			shotDelay: 10
-			}
-   			"shootCone": 120,
-			"inaccuracy": 8,
-                        "layerOffset": 1
-			"inaccuracy": 1,
-			"mirror": false,
-			"x": 0,
-			"y": 0,
-			"rotate": true,
-			"rotateSpeed": 5,
-			"recoil": 1,
-			"shootSound": "bang",
-			"top": true, 
-			"reload": 40,
-			"bullet": 
-			{ 
-				"type": "BasicBulletType",
-				"speed": 4,
-				"damage": 8,
-				"status": "blasted",
-				"statusDuration": 70,
-				"width": 8,
-				"height": 8,
-				"hitEffect": "blastExplosion",
-				"shootEffect": "shootBig",
-				"lifetime": 30,
-				"pierce": false,
-				"hitSize": 4,
-				"homingPower": 0.0667,
-				"homingRange": 250,
-				"weaveScale": 8,
-				"weaveMag": 2,
-			}
-}
-}
+type: flying
+name: Scout
+description: An agile core unit meant for exploring.Able to heal allied units and blocks.Sends long range hypersonic peircing missiles.
+speed: 2.8
+mineSpeed: 2.9
+mineTier: 3
+buildSpeed: 2.2
+accel: 0.125
+drag: 0.0625
+health: 220
+alwaysUnlocked: true
+itemCapacity: 55
+rotateSpeed: 3
+hitSize: 7
+armor: 1
+engineOffset: 0
+flying: true
+faceTarget: true
+drawCell: false
+weapons: [
+    {
+      name: main-gun
+      reload: 130
+      x: 0
+      y: 0
+      top: false
+      rotate: false
+      inaccuracy: 0
+      shootY: 0
+      ejectEffect: casing2
+      shootSound: missile
+      bullet: {
+        type: MissileBulletType
+        damage: 111
+        speed:  9
+        width: 3
+        height: 5
+		pierce: true
+		pierceCap: 14
+		pierceDamageFactor: 144
+		pierceArmor: true
+		pierceBuilding: true
+		removeAfterPierce: false
+		shootStatus: unmoving
+		lifetime: 40
+	  }
+    }    
+  ]
+abilities: [
+  {
+    type: RepairFieldAbility
+    amount: 15
+    max: 30
+    reload: 233
+    range: 55
+  }
+]
