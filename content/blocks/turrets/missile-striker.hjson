@@ -1,0 +1,49 @@
+{
+ name: L.M.L.S
+ description: Large Missile Launcher System
+ type: ItemTurret,
+ size: 6,
+ health: 3800,
+ reload: 340,
+ xRand: 0,
+ shots: 1,
+ maxAmmo: 16,
+ ammoPerShot: 4,
+ range: 990,
+ targetGround: false,
+ collideGround: false,
+ shootSound: shoot,
+ inaccuracy: 0,
+    rotateSpeed: 4,
+    ammoTypes: {
+        bloody-iron-ingot: {
+            type: MissileBulletType,
+            damage: 500,
+            splashDamage: 400,
+            splashDamageRadius: 68,
+            height: 20,
+            width: 12,
+            speed: 3,
+            drag: -0.01,
+            lifetime: 55,
+            ammoMultiplier: 1,
+            homing: 0.65,
+            homingRange: 140,
+            bulletSprite: rocket,
+            buildingDamageMultiplier: 0.05,
+            smokeEffect: shootBigSmoke,
+            hitEffect: shockwave,
+            despawnEffect: shootBigSmoke2,
+            trailWidth: 1.5,
+            trailLength: 15,
+        },
+    },
+    requirements: [
+     bloody-iron/650
+     calcitic-fragment/870
+     thermium/850
+     bloody-iron-ingot/450
+    ]
+    category: turret,
+    research: mortar
+}
