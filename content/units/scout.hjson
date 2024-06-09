@@ -1,7 +1,7 @@
 type: flying
 name: Scout
 description: An agile core unit meant for exploring.Able to heal allied units and blocks.Sends long range hypersonic peircing missiles.
-speed: 2.8
+speed: 1
 mineSpeed: 2.9
 mineTier: 3
 buildSpeed: 2.2
@@ -31,7 +31,7 @@ weapons: [
       shootSound: missile
       bullet: {
         type: MissileBulletType
-        damage: 111
+        damage: 10
         speed:  9
         width: 3
         height: 5
