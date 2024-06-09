@@ -9,7 +9,7 @@ shoot: {
   shotDelay: 3
   spread: 17
 }
-range: 180
+range: 200
 category: turret
 shootSound: shoot-dull
 outlineColor: 42413e

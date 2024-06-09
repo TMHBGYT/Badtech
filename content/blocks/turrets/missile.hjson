@@ -10,7 +10,7 @@ shoot: {
   shotDelay: 6
   barrels: 4
 }
-range: 235
+range: 180
 category: turret
 shootSound: shoot-dull
 outlineColor: 42413e
@@ -22,8 +22,8 @@ ammoTypes: {
     width: 7
     height: 9
     damage: 25
-    speed: 4
-    lifetime: 50
+    speed: 3
+    lifetime: 60
     collidesGround: true
     collidesAir: false
     ammoMultiplier: 5
@@ -37,8 +37,8 @@ ammoTypes: {
     width: 7
     height: 9
     damage: 34
-    speed: 4
-    lifetime: 50
+    speed: 3
+    lifetime: 60
     ammoMultiplier: 6
     collidesGround: true
     collidesAir: true
@@ -52,8 +52,8 @@ ammoTypes: {
     width: 7
     height: 9
     damage: 53
-    speed: 4
-    lifetime: 50
+    speed: 3
+    lifetime: 60
     ammoMultiplier: 6
     collidesGround: true
     collidesAir: true

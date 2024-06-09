@@ -1,13 +1,14 @@
 type: ItemTurret
 name: cast
-description: first turret on ankle, shoots small bullets
+description: Fires small flak pellets at enemy targets.Due to how inaccurate it is,it has homing ammunition.
 size: 3
+inaccuracy: 8
 reload: 30
 shoot: {
   shots: 1
   shotDelay: 2
 }
-range: 280
+range: 100
 category: turret
 shootSound: shoot-dull
 outlineColor: 42413e
@@ -27,30 +28,31 @@ targetGround: true
 targetAir: true
 ammoTypes: {
   bloody-iron: {
-    type: BasicBulletType
+    type: FlakBulletType
     width: 7
     height: 9
     damage: 18
-    speed: 4
+    speed: 2
     lifetime: 50
     collidesGround: true
     collidesAir: true
     ammoMultiplier: 5
-    damage: 20
     splashDamage: 20
     splashDamageRadius: 8
+    homingPower: 0.3
   }
   lead: {
     type: BasicBulletType
     width: 7
     height: 9
     damage: 25
-    speed: 4
+    speed: 2
     lifetime: 50
     ammoMultiplier: 6
     collidesGround: true
     collidesAir: true
-    splashDamage: 20
+    splashDamage: 12
     splashDamageRadius: 12
+    homingPower: 0.4
   }
 }
