@@ -2,6 +2,7 @@
 
 Biotech But on crack....
 
-A mod by Oleskey and Me(TMHBGYT)
+a mod about cringe planet where having life? the answer is in the mod
+beta stage only
 
 A mod contaniing something atleast.....
