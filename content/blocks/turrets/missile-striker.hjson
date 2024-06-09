@@ -1,6 +1,6 @@
 {
  name: L.M.L.S
- description: Large Missile Launcher System
+ description: Large Missile Launcher System,launches big missiles at enemy units.
  type: ItemTurret,
  size: 6,
  health: 3800,
@@ -9,9 +9,9 @@
  shots: 1,
  maxAmmo: 16,
  ammoPerShot: 4,
- range: 990,
- targetGround: false,
- collideGround: false,
+ range: 960,
+ targetGround: true,
+ collideGround: true,
  shootSound: shoot,
  inaccuracy: 0,
     rotateSpeed: 4,
