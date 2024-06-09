@@ -6,7 +6,7 @@ requirements: [
 ]
 isFirstTier: true
 size: 3
-squareSprite: false
+squareSprite: true
 alwaysUnlocked: true
 unitType: scout
 health: 1450
