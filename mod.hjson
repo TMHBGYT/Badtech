@@ -1,17 +1,16 @@
 {
   "name": "badtech"
-  "displayName": "Biotech but bad"
+  "displayName": "mindustry extended"
   "author":
     '''
-    oleksiy and a contributor/second dev TMHBGYT
+    ankle devs team
     '''
   "description":
     '''
-    I really dont know
-current version: beta
+    this mod will add a new planet and extend existing ones, the last sector of this mod will be inner torment...
     '''
-  "subtitle": "mod on crack"
-  "version": "beta"
+  "subtitle": "now automated!"
+  "version": "1.0 release"
   "hidden": false
   "minGameVersion": 136
   "dependencies": []
