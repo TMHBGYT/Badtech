@@ -63,7 +63,7 @@ allowLaunchToNumbered: false
 allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 0
-orbitSpacing: 1
+orbitSpacing: 10
 radius: 1.2
 minZoom: 1.5
 drawOrbit: true
@@ -82,8 +82,8 @@ clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
 defaultCore: core-shard
-parent: paradox-sun-1
-solarSystem: paradox-sun-1
+parent: serpulo
+solarSystem: sun
 launchCandidates: []
 hiddenItems:[
 beryllium, 
