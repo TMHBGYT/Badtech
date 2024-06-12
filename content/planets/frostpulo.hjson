@@ -82,7 +82,7 @@ clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
 defaultCore: core-shard
-parent: paradox-sun
+parent: paradox-sun-1
 solarSystem: paradox-sun
 launchCandidates: []
 hiddenItems:[
