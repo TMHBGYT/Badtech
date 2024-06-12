@@ -83,7 +83,7 @@ allowWaves: true
 prebuildBase: false
 defaultCore: core-shard
 parent: paradox-sun-1
-solarSystem: paradox-sun
+solarSystem: paradox-sun-1
 launchCandidates: []
 hiddenItems:[
 beryllium, 
