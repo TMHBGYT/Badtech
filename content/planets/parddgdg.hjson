@@ -1,5 +1,5 @@
 # The planet's display name. If you want to support multiple languages, use bundles instead!
-localizedName: paradox sun
+localizedName: pfffff
 
 # The mesh of this star. SunMesh should now be supported in v146, thanks to my PR. (hehe, shameless plug)
 mesh: {
@@ -46,7 +46,7 @@ solarSystem: sun
 # but I couldn't find a way to leave the parent null as it is currently required to declare for JSON planets.
 # So we set the parent to sun for a band-aid solution.
 # (A quick reminder: if you find a way to set this field to null, let me know!)
-parent: sun
+parent: erekir
 # Orbit radius of this planet. (Just to make it very far from the sun, I guess?)
 # Part 2 of the band-aid solution.
 orbitRadius: 12000
