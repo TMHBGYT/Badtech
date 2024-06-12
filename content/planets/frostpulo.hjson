@@ -8,7 +8,7 @@ mesh: [
     planet: frostpulo
     divisions: 2
     seed: 7
-    radius: 2
+    radius: 1.229
     color1: 587d89
     color2: 5e95a8
     octaves: 4.8
@@ -64,7 +64,7 @@ allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 0
 orbitSpacing: 10
-radius: 2
+radius: 1.2
 minZoom: 1.5
 drawOrbit: true
 atmosphereRadIn: 0
